@@ -8,7 +8,7 @@ public class Users {
     private  String password;
     private  String image;
 
-    public Users(String firstName, String secondName, String username, String password, String image) {
+    public Users(String firstName, String secondName, String username, String password,String image) {
         this.firstName = firstName;
         this.secondName = secondName;
         this.username = username;

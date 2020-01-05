@@ -15,7 +15,7 @@ import retrofit2.http.Part;
 
 public interface UsersAPI {
     @POST("users/signup")
-    Call<SignUpResponse>registrationUser(@Body Users users);
+    Call<SignUpResponse> registrationUser(@Body Users users);
 
 
     @FormUrlEncoded

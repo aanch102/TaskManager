@@ -7,14 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".RegistrationActivity">
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imgview"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@drawable/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_gravity="center"
-
-        />
+        android:layout_marginTop="20dp"
+        android:src="@drawable/noimage" />
 
     <EditText
         android:id="@+id/etfirst"
@@ -40,12 +39,14 @@
     <EditText
         android:id="@+id/etpass"
         android:layout_width="match_parent"
+        android:inputType="textPassword"
         android:layout_height="wrap_content"
         android:hint="enter password"
         android:layout_margin="10dp"
         android:textSize="20sp"/>
-    <EditText
+   <EditText
         android:id="@+id/etconpass"
+       android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="confirm password"
